@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>HTML5 Website with Bootstrap | Responsive Website Design</title>
+	<link rel="shortcut icon" href="img/autism-logo.png">
+	<!-- Bootstrap 4.5 CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+
+	<!-- Top Bar -->
+	<div class="top-bar">
+		<div class="container-fluid pr-5">
+			<div class="col-12 text-right">
+				<p><i class="fas fa-phone text-white"></i> <a href="tel:+1(800) 555-1241">(800) 555-1241</a>
+					<i class="fab fa-twitter fa-2x text-white ml-5" aria-hidden="true"></i>
+					<i class="fab fa-facebook fa-2x text-white ml-5" aria-hidden="true"></i>
+					<i class="fab fa-youtube fa-2x text-white ml-5" aria-hidden="true"></i>
+				</p>	
+								
+			</div>			
+		</div>
+	</div>
+	<!-- End Top Bar -->
+
+
+	<!-- Navigation -->
+	<nav class="navbar bg-light navbar-light navbar-expand-lg">
+		<div class="container" id="image-logo-container">
+			<a href="index.html" class="img-responsive"><img src="img/logo-color.png" alt="logo" title="site logo"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-responsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar-responsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+					<li class="nav-item"><a href="#main-page-heading" class="nav-link">Understand</a></li>					
+					<li class="nav-item"><a href="#help-and-contact" class="nav-link">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- End Navigation -->
+
+
+	<!-- Image Carousel -->
+		<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="500000">	
+		
+
+		<!-- Carousel Content -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="img/carousel/autism1.jpg" alt="" class="w-100">						
+					<div class="carousel-caption">
+						<div class="container animate__animated animate__fadeInLeft" id="container-1">
+							<div class="row justify-content-center">
+								<div class="col-5 d-none d-md-block py-3 px-0 pr-3" id="bg-custom1">
+									<h1>Autism <span style="color:red">Research</span></h1>										
+									<a href="https://www.youtube.com/watch?v=H5dfyM0J4cQ&feature=emb_logo" target="_blank" class="btn btn-primary btn-md my-2">View Video</a>
+								</div>
+							</div>
+						</div>
+					</div>				
+				</div>
+				<div class="carousel-item">					
+					<img src="img/carousel/autism2.jpg" alt="" class="w-100">		
+					<div class="carousel-caption">
+						<div class="container animate__animated animate__fadeInRight" id="container-2">
+							<div class="row justify-content-end text-right">
+								<div class="col-5 d-none d-lg-block py-3 px-0 pr-3" id="bg-custom2">									
+									<p class="lead pb-3">Unique abilities of kids on the autism spectrum.</p>									
+									<a href="https://www.youtube.com/watch?v=zvDMCKTNX4k" class="btn btn-danger btn-lg" target="_blank">View Video</a>
+								</div>
+							</div>
+						</div>
+					</div>							
+				</div>
+				<div class="carousel-item">					
+					<img src="img/carousel/3.jpg" alt="" class="w-100">	
+					<div class="carousel-caption">				
+						<div class="container animate__animated animate__fadeInBottomRight" id="container-3">
+							<div class="row justify-content-start text-left">
+								<div class="col-7 d-none d-lg-block py-3 px-0 pl-3" id="bg-custom3">		
+									<h3 class="pb-3"><span style="color:#3fa9b9">Asperger/Autism Network</span></h3>
+									<p class="lead">For Adults with Asperger's syndrome or those who fall within the  Austism Spectrum </p>
+									<a href="https://www.aane.org/resources/adults/" class="btn btn-primary btn-lg" target="_blank">Click Here</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- End Carousel Content -->
+
+
+		<!-- Previous & Next Buttons -->
+			<a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
+				<span class="fas fa-chevron-left fa-2x"></span>
+			</a>
+			<a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
+				<span class="fas fa-chevron-right fa-2x"></span>
+			</a>
+		<!-- End Previous & Next Buttons -->
+
+	</div>
+	<!-- End Image Carousel -->
+
+
+	<!-- Main Page Heading -->
+		<div class="col-12 text-center mt-5" id="main-page-heading">
+			<h1 class="text-dark pt-4 animate__animated animate__fadeInRight">Understanding Autism</h1>
+			<div class="border-top border-primary w-25 mx-auto my-3"></div>
+			<p class="lead animate__animated animate__fadeInLeft">Education and Support</p>
+		</div>
+
+	<!-- Three Column Section -->
+		<div class="container">
+			<div class="row my-5">
+				<div class="col-md-6 my-4">
+					<img src="img/diagnose.jpg" alt="image" class="w-100 bradius-5px">
+					<h4 class="my-4">Diagnosed with Autism</h4>
+					<p class="text-justify">Read what many college age students diagnosed with Autism have to say about returning to school during a national pandemic.</p>
+					<a href="https://www.autismspeaks.org/blog/our-own-words-autistic-college-students-prepare-go-back-school-during-pandemic" class="btn btn-outline-dark btn-md" target="_blank">Their Story</a>
+				</div>
+
+				
+
+				<div class="col-md-6 my-4">
+					<img src="img/siglings.jpg" alt="image" class="w-100 bradius-5px">
+					<h4 class="my-4">Siblings of Autism</h4>
+					<p class="text-justify">Siblings of Autism is dedicated to supporting the siblings of individuals on the autism spectrum through educational scholarships, respite funds, and outreach programs.</p>
+					<a href="https://siblingsofautism.org/" target="_blank" class="btn btn-outline-dark btn-md">Our Story</a>
+				</div>
+			</div>
+		</div>
+	<!-- End Three Column Section -->
+
+
+	<!-- Emoji Navbar First -->
+	<a href="#emoji" class="navbar sticky-top emoji" role="button" data-toggle="collapse"></a>
+
+
+	<!-- Start Fixed Background IMG -->
+	<div class="fixed-background">
+
+		<div class="row text-light py-5">
+			<div class="col-12 text-center" id="fixed-background">
+				<h1 class="bg-darkish">The Puzzling World of Autism</h1><br/>
+				<h3 class="bg-darkish py-4">Full Documentary Film (2018)</h3>
+				
+				
+				<div class="container" id="video-container">
+					<iframe class="responsive-iframe" 
+						src="https://www.youtube.com/embed/JSusx5rvTTI">
+					</iframe>
+				</div>
+			</div>				
+		</div>
+
+		<div class="fixed-wrap">
+			<div class="fixed"></div>
+		</div>
+	</div>	
+	
+	<!-- Start Two Column Section -->
+	<div class="container my-5" id="help-and-contact">
+		<div class="row py-4">
+			<div class="col-lg-4 mb-4 my-lg-auto">
+				<h1 class="text-dark font-weight-bold mb-3"><span style="color:blue">American</span><span style="color:red"> Advocacy Group (AAG)</span></h1>
+				<p class="text-justify"> AAG exists to provide top quality, affordable advocacy for individuals with disabilities and families with disabled children in California. Our experienced, dedicated staff is here to help you receive the benefits and assistance you’re entitled to, providing step by step advocacy at every stage of the process.</p>
+				<a href="https://www.americanadvocacygroup.com/" class="btn btn-outline-dark btn-lg" target="_blank">Start Here</a>
+			</div>
+			<div class="col-lg-8"><img src="img/help.jpg" alt="woman coding" class="w-100 bradius-5px"></div>
+		</div>
+	</div>
+
+	<!-- End Two Column Section -->	
+
+	<!--Contact-->
+	<div class="container" id="container-contact">
+		<form>
+			<label>Contact Us</label>
+			<input type="text" id="fname" name="firstname" placeholder="Your name.." required>	
+			<textarea id="subject" name="subject" placeholder="Your message..." style="height:100px" required></textarea>
+			<button id="send-button" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Send</button>
+		</form>
+	</div>
+
+	<!-- Modal -->
+	<!--Trigger button being handled by the send button in contact form-->		
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLabel"><span style="color:lightseagreen">We are here to help</span></h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			</div>
+			<div class="modal-body">
+			Thank you for contacting us.  Please rest assured that We will respond to your message within one day.
+			</div>
+			<div class="modal-footer">
+			<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>		
+			</div>
+		</div>
+		</div>
+	</div>
+	<!--End Contact-->
+
+
+	<!-- Start footer -->
+	<div class="socket text-light text-center py-3">
+		<p>Copyright &copy; 2021<a href="https://richardknott.tech" target="_blank"> - Designed by Richlynn Designs</a></p>
+	</div>
+
+	<!-- End footer -->
+
+
+
+	<!-- Script Source Files -->
+
+	<!-- jQuery -->	
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<!-- Bootstrap 4.5 JS -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Popper JS -->
+	<script src="js/popper.min.js"></script>
+	<!-- Font Awesome -->
+	<script src="js/all.min.js"></script>
+	<!--Autism Script-->
+	<script src="js/autism.js"></script>
+	
+
+	<!-- End Script Source Files -->
+</body>
+</html>
